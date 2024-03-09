@@ -1,0 +1,12 @@
+@HD_Movies_HostAddress = http://localhost:5201
+
+
+
+POST  {{HD_Movies_HostAddress}}/api/
+Accept: application/json
+
+
+GET {{HD_Movies_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
